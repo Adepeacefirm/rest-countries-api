@@ -11,7 +11,7 @@ const Header = () => {
           Where in the world?
         </p>
       </section>
-      <section onClick={toggleTheme} className="flex items-center gap-2">
+      <section onClick={toggleTheme} className="flex items-center gap-2 cursor-pointer">
         {isDark ? (
           <svg
             xmlns="http://www.w3.org/2000/svg"
