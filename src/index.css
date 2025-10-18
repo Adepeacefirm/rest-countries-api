@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+*,
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+@theme {
+  --color-grey950: hsl(200, 15%, 8%);
+  --color-grey250: hsl(0, 0%, 77%);
+  --color-blue950: hsl(207, 26%, 17%);
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
